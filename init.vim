@@ -1,4 +1,3 @@
-"Plug 'nvim-lualine/lualine.nvim'
 set number
 set nowrap
 set background=dark

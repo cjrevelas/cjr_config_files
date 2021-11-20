@@ -1,0 +1,17 @@
+[color]
+	ui = true
+[user]
+	name = cjrevelas
+	email = cjrevelas@gmail.com
+[core]
+	editor = nvim
+[merge]
+	tool = nvim -d
+[difftool]
+	prompt = true
+[diff]
+	tool = nvimdiff
+[difftool "nvimdiff"]
+	cmd = "nvim -d \"$LOCAL\" \"$REMOTE\""
+[init]
+	defaultBranch = main

@@ -5,13 +5,17 @@
 	email = cjrevelas@gmail.com
 [core]
 	editor = nvim
+	fileMode = false
+	autocrlf = input
 [merge]
 	tool = nvim -d
 [difftool]
-	prompt = true
+	prompt = false
 [diff]
 	tool = nvimdiff
 [difftool "nvimdiff"]
 	cmd = "nvim -d \"$LOCAL\" \"$REMOTE\""
 [init]
 	defaultBranch = main
+[alias]
+	lo = log --oneline

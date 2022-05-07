@@ -3,6 +3,7 @@ set nowrap
 set background=dark
 set nocompatible
 set hlsearch
+set cursorline
 filetype off
 
 " install plugins

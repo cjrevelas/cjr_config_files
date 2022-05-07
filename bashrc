@@ -130,9 +130,13 @@ fi
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$HOME/libraries/openlblas/lib:/usr/lib/gcc/x86_64-linux-gnu/9
 
 # Set default compilers
-export CXX=/usr/bin/g++
-export CC=/usr/bin/gcc
+# GCC
+#export CXX=/usr/bin/g++
+#export CC=/usr/bin/gcc
 export FC=/usr/bin/gfortran
+# CLANG
+export CC=/usr/lib/llvm-12/bin/clang
+export CXX=/usr/lib/llvm-12/bin/clang++
 
 # Define some handy aliases
 alias glass="ssh cjrevelas@147.102.85.166 -p 8023"

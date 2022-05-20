@@ -46,6 +46,20 @@ paste the content of the init.vim file found in this repo. The file contains:
 inside init.vim and while in escape mode, type :PlugInstall
 (if plug.vim file has been successfully created in ~/.config/nvim/autoload, autocompletion will be supported for the Plug commands)
 
+Note:
+for the coc package to work properly, you need to install node.js > 12.12
+to do that install npm and the node's native package manager call 'n':
+
+sudo apt-get install npm
+npm cache clean -f
+sudo npm install -g n
+sudo n stable
+or
+sudo n latest
+
+afterwads, check that you have indeed installed the latest stable node version by running:
+node -v
+
 type the following inside a nvim file to install some useful LSPs (language server protocols):
    :CocInstall coc-clangd (requires that clangd binary has been installed inside .local directory)
    :CocInstall coc-jason

@@ -10,10 +10,13 @@ filetype off
 call plug#begin('~/.config/nvim/plugged')
 Plug 'morhetz/gruvbox'
 Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-commentary'
 Plug 'preservim/nerdtree'
+Plug 'preservim/tagbar'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'vim-airline/vim-airline'
+Plug 'rafi/awesome-vim-colorschemes'
 call plug#end()
 " end install plugins
 
